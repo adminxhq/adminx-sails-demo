@@ -1,0 +1,29 @@
+<!--<%- JSON.stringify(cars) %>-->
+
+<div class="container">
+  <div class="row">
+
+
+      <% _.each(cars, function (car, index) { %>
+    <div class="col-md-4 mb-3">
+      <div class="card">
+        <div class="card-img-top"
+             style="background-size:150%; background-position:center center; background-image:url('<%= car.thumbnail %>');">
+          <img class="img-fluid" src="<%= car.thumbnail %>" alt="Card image cap" style="opacity:0; max-height:200px;">
+        </div>
+        <div class="card-body">
+          <h4 class="card-title"><%= car.name %></h4>
+          <h6 class="card-subtitle mb-2 text-muted"><%= car.brand %> <%= car.model %></h6>
+          <p class="card-text">
+            <small><%= car.summary.substring(0, 200) %>...</small>
+            <br>
+            <a href="#" class=""><small>Read more</small></a>
+          </p>
+          <a href="#" class="btn btn-primary float-right">Rent this car</a>
+        </div>
+      </div>
+    </div>
+      <% }); %>
+
+  </div>
+</div>

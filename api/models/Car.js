@@ -11,7 +11,8 @@ module.exports = {
     name: { type: 'string' },
     model: { type:'string' },
     brand: { type: 'string' },
-    photoUrl: { type: 'string' }
+    summary: { type: 'string' },
+    thumbnail: { type: 'string' }
   },
 
   adminx: {
@@ -21,6 +22,7 @@ module.exports = {
       name: { list: true },
       model: { list: true },
       brand: { list: true },
+      thumbnail: { editor: 'image' },
       createdAt: { list: true },
       updatedAt: { list: true }
     }

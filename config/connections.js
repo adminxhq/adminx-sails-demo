@@ -32,6 +32,14 @@ module.exports.connections = {
     adapter: 'sails-disk'
   },
 
+  testDiskDb: {
+    adapter: 'sails-disk'
+  },
+
+  testMemoryDb: {
+    adapter: 'sails-memory'
+  },
+
   /***************************************************************************
   *                                                                          *
   * MySQL is the world's most popular relational database.                   *

@@ -17,8 +17,11 @@ module.exports = {
    * environment (see config/connections.js and config/models.js )           *
    ***************************************************************************/
 
-  // models: {
-  //   connection: 'someMongodbServer'
-  // }
+  models: {
+    connection: 'testDiskDb',
+    migrate: 'alter'
+  },
+
+  port: process.env.PORT || 1339,
 
 };

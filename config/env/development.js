@@ -24,4 +24,13 @@ module.exports = {
 
   port: process.env.PORT || 1339,
 
+
+  routes: {
+    '/adminx*': {
+      cors: {
+        origin: 'http://localhost:1337'
+      }
+    },
+  }
+
 };

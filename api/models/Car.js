@@ -33,8 +33,6 @@ module.exports = {
       thumbnail: { editor: 'image' },
       createdAt: { list: true },
       updatedAt: { list: true },
-
-      extras: { editorInputType: 'number' },
     }
   }
 };

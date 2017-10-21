@@ -13,11 +13,14 @@ module.exports = {
     brand: { type: 'string' },
     year: { type: 'integer' },
     price: { type: 'float' },
+    available: { type: 'boolean' },
     summary: { type: 'string' },
     thumbnail: { type: 'string' },
     cover: { type: 'string' },
     extras: { type: 'array' },
-    history: { type: 'longtext' }
+    doorConfiguration: { type: 'string', enum: ['2 Doors', '4 Doors', '6 Doors'] },
+    history: { type: 'longtext' },
+    metaData: { type: 'json' },
   },
 
   adminx: {
@@ -29,7 +32,9 @@ module.exports = {
       brand: { list: true },
       thumbnail: { editor: 'image' },
       createdAt: { list: true },
-      updatedAt: { list: true }
+      updatedAt: { list: true },
+
+      extras: { editorInputType: 'number' },
     }
   }
 };

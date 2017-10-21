@@ -7,7 +7,19 @@ module.exports = {
       .then(function (cars) {
         return res.view('car-list', { cars:cars });
       })
-      .then(res.serverError)
+      .catch(res.serverError)
+    ;
+  },
+
+  'details': function (req, res) {
+    var id = req.param('id');
+
+    Car.findOneById(id)
+      .then(function (car) {
+        res.view('car-details', { car: car });
+      })
+      .catch(res.serverError)
+    ;
   }
 
 }

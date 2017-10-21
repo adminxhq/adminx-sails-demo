@@ -1,0 +1,25 @@
+
+<div class="px-3">
+  <div class="col-12 d-flex justify-content-center">
+
+    <div class="card mb-3">
+      <div class="card-img-top"
+           style="background-size:cover; background-position:center center; background-image:url('<%= car.cover %>'); height:200px;">
+        <img class="img-fluid" src="<%= car.cover %>" alt="Card image cap" style="opacity:0; max-height:400px;">
+      </div>
+      <div class="card-body">
+        <h1 class="card-title"><%= car.name %></h1>
+        <h3 class="card-subtitle mb-2 text-muted"><%= car.brand %> <%= car.model %></h3>
+        <p class="card-text">
+          <h5>Available: <%= car.available ? '<span class="text-success">Yes</span>' : 'No' %></span></h5>
+          <h5>Brief</h5>
+          <p><%= car.summary %></p>
+          <h5>History</h5>
+          <i>(From Wikipedia)</i>
+          <p><%= car.history %></p>
+        </p>
+      </div>
+    </div>
+
+  </div>
+</div>

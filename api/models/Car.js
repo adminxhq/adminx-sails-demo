@@ -11,8 +11,13 @@ module.exports = {
     name: { type: 'string' },
     model: { type:'string' },
     brand: { type: 'string' },
+    year: { type: 'integer' },
+    price: { type: 'float' },
     summary: { type: 'string' },
-    thumbnail: { type: 'string' }
+    thumbnail: { type: 'string' },
+    cover: { type: 'string' },
+    extras: { type: 'array' },
+    history: { type: 'longtext' }
   },
 
   adminx: {

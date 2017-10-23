@@ -14,7 +14,7 @@
           <h4 class="card-title"><%= car.name || '' %></h4>
           <h6 class="card-subtitle mb-2 text-muted"><%= car.brand || '' %> <%= car.model || '' %></h6>
           <p class="card-text">
-            <small><%= (car.summary || '').substring(0, 200) %>...</small>
+            <small><%= (car.summary || '').substring(0, 100) %>...</small>
             <br>
             <a href="/car/details?id=<%= car.id %>" class="text-secondary"><small>Read more</small></a>
           </p>

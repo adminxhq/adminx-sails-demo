@@ -25,7 +25,7 @@
     "rc": "1.0.1",
     "sails": "~0.12.14",
     "sails-disk": "~0.10.9",
-    "sails-hook-adminx": "git+https://git@github.com/albertpeiro/sails-hook-adminx.git#0.0.5",
+    "sails-hook-adminx": "git+https://git@github.com/albertpeiro/sails-hook-adminx.git#0.0.6",
     "sails-hook-cron": "^2.2.2"
   },
   "scripts": {

@@ -2671,9 +2671,9 @@ sails-generate@~0.13.0:
     sails-generate-views "~0.10.5"
     sails-generate-views-jade "~0.10.3"
 
-"sails-hook-adminx@git+https://git@github.com/albertpeiro/sails-hook-adminx.git#0.0.5":
-  version "0.0.5"
-  resolved "git+https://git@github.com/albertpeiro/sails-hook-adminx.git#cac0690138c18a38d793fab7c83665936bea83b5"
+"sails-hook-adminx@git+https://git@github.com/albertpeiro/sails-hook-adminx.git#0.0.6":
+  version "0.0.6"
+  resolved "git+https://git@github.com/albertpeiro/sails-hook-adminx.git#30c76e129bf6d00c38fc9e8ad29ac4a476ec4bef"
   dependencies:
     lodash.mergewith "^4.6.0"
     sails-util-mvcsloader "^0.4.0"

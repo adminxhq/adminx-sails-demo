@@ -18,7 +18,7 @@ module.exports = {
     thumbnail: { type: 'string' },
     cover: { type: 'string' },
     extras: { type: 'array' },
-    doorConfiguration: { type: 'string', enum: ['2 Doors', '4 Doors', '6 Doors'] },
+    doorConfiguration: { type: 'string', enum: ['2 Doors', '3 Doors', '4 Doors', '5 Doors', '6 Doors'] },
     history: { type: 'longtext' },
     metaData: { type: 'json' },
   },
@@ -30,7 +30,7 @@ module.exports = {
       name: { list: true },
       model: { list: true },
       brand: {  },
-      thumbnail: {  },
+      thumbnail: { },
       createdAt: { },
       updatedAt: { list: true },
     }

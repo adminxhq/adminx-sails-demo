@@ -5,6 +5,7 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "barrels": "^1.6.5",
     "ejs": "2.3.4",
     "grunt": "1.0.1",
     "grunt-contrib-clean": "1.0.0",
@@ -24,7 +25,8 @@
     "rc": "1.0.1",
     "sails": "~0.12.14",
     "sails-disk": "~0.10.9",
-    "sails-hook-adminx": "git+https://git@github.com/albertpeiro/sails-hook-adminx.git#0.0.5"
+    "sails-hook-adminx": "git+https://git@github.com/albertpeiro/sails-hook-adminx.git#0.0.5",
+    "sails-hook-cron": "^2.2.2"
   },
   "scripts": {
     "debug": "node debug app.js",

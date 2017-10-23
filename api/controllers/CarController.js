@@ -1,9 +1,9 @@
 
-
 module.exports = {
 
   'index': function (req, res) {
     Car.find()
+      .sort('updatedAt desc')
       .then(function (cars) {
         return res.view('car-list', { cars:cars });
       })

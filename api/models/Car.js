@@ -11,8 +11,8 @@ module.exports = {
     name: { type: 'string' },
     model: { type:'string' },
     brand: { type: 'string' },
-    year: { type: 'integer' },
-    price: { type: 'float' },
+    year: { type: 'integer', min: 2000, max: 2019 },
+    price: { type: 'float', min: 0 },
     available: { type: 'boolean' },
     summary: { type: 'string' },
     thumbnail: { type: 'string' },
@@ -26,12 +26,12 @@ module.exports = {
   adminx: {
     name: 'Car',
     attributes: {
-      id: { list:true },
+      id: {  },
       name: { list: true },
       model: { list: true },
-      brand: { list: true },
-      thumbnail: { editor: 'image' },
-      createdAt: { list: true },
+      brand: {  },
+      thumbnail: {  },
+      createdAt: { },
       updatedAt: { list: true },
     }
   }

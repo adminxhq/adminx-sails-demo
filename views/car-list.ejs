@@ -1,24 +1,24 @@
 <!--<%- JSON.stringify(cars) %>-->
 
-<div class="px-3">
-  <div class="row">
+<div class="container-fluid">
+  <div class="row py-3">
 
     <% _.each(cars, function (car, index) { %>
-    <div class="col-md-3 mb-3 d-flex align-items-stretch">
-      <div class="card">
+    <div class="col-sm-6 col-md-4 col-lg-3 d-flex mb-3">
+      <div class="card" style="width:100%;">
         <div class="card-img-top"
              style="background-size:cover; background-position:center center; background-image:url('<%= car.thumbnail %>'); height:200px;">
-          <img class="img-fluid" src="<%= car.thumbnail %>" alt="Card image cap" style="opacity:0;">
+          <img class="img-fluid" src="<%= car.thumbnail %>" alt="Card image cap" style="opacity:0;pointer-events:none;">
         </div>
         <div class="card-body d-flex flex-column">
-          <h4 class="card-title"><%= car.name %></h4>
-          <h6 class="card-subtitle mb-2 text-muted"><%= car.brand %> <%= car.model %></h6>
+          <h4 class="card-title"><%= car.name || '' %></h4>
+          <h6 class="card-subtitle mb-2 text-muted"><%= car.brand || '' %> <%= car.model || '' %></h6>
           <p class="card-text">
-            <small><%= car.summary.substring(0, 200) %>...</small>
+            <small><%= (car.summary || '').substring(0, 200) %>...</small>
             <br>
-            <a href="#" class=""><small>Read more</small></a>
+            <a href="/car/details?id=<%= car.id %>" class="text-secondary"><small>Read more</small></a>
           </p>
-          <a href="/car/details?id=<%= car.id %>" class="btn btn-primary mt-auto ml-auto">More details</a>
+          <a href="/car/details?id=<%= car.id %>" class="btn btn-secondary mt-auto ml-auto">More details</a>
         </div>
       </div>
     </div>
@@ -26,3 +26,4 @@
 
   </div>
 </div>
+

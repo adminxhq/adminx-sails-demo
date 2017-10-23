@@ -11,6 +11,10 @@
  * http://sailsjs.org/#!/documentation/concepts/Views
  */
 
+var moment = require('moment');
+// moment.locale('es');
+var numeral = require('numeral');
+
 module.exports.views = {
 
   /****************************************************************************
@@ -89,7 +93,10 @@ module.exports.views = {
   *                                                                           *
   ****************************************************************************/
 
-  partials: false
+  partials: false,
 
-
+  locals: {
+    moment: moment,
+    numeral: numeral
+  }
 };

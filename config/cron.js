@@ -5,7 +5,7 @@ module.exports.cron = {
   // ['seconds', 'minutes', 'hours', 'dayOfMonth', 'month', 'dayOfWeek']
 
   resetData: {
-    schedule: '* */5 * * * *',
+    schedule: '0 */5 * * * *',
     start: true, // Start task immediately
     runOnInit: true, // Will fire your onTick function as soon as the requisit initialization has happened.
     onTick: function () {
@@ -14,7 +14,7 @@ module.exports.cron = {
       var barrels = new Barrels(path.resolve('./fixtures'));
       var fixtures = barrels.data;
       barrels.populate(function (err) {
-        console.log('Finished populating data', err);
+        console.log('Finished populating data', err || '');
       });
 
     }

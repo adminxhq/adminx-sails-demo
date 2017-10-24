@@ -1,7 +1,7 @@
 /**
  * Car.js
  *
- * @description :: Motorized vehicle of 4 wheels for individual and family transport
+ * @description :: Motorized vehicle with 4 wheels for individual and family transport
  * @docs        :: http://sailsjs.org/#!documentation/models
  */
 

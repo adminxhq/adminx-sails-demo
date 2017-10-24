@@ -1,7 +1,7 @@
 /**
  * Car.js
  *
- * @description :: TODO: You might write a short summary of how this model works and what it represents here.
+ * @description :: Motorized vehicle of 4 wheels for individual and family transport
  * @docs        :: http://sailsjs.org/#!documentation/models
  */
 
@@ -26,12 +26,8 @@ module.exports = {
   adminx: {
     name: 'Car',
     attributes: {
-      id: {  },
       name: { list: true },
       model: { list: true },
-      brand: {  },
-      thumbnail: { },
-      createdAt: { },
       updatedAt: { list: true },
     }
   }

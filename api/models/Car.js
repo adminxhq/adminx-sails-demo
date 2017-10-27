@@ -15,7 +15,7 @@ module.exports = {
     year: { type: 'integer', min: 2000, max: 2019 },
     price: { type: 'float', min: 0 },
     available: { type: 'boolean' },
-    summary: { type: 'string' },
+    summary: { type: 'mediumtext' },
     thumbnail: { type: 'string' },
     cover: { type: 'string' },
     extras: { type: 'array' },
@@ -31,6 +31,8 @@ module.exports = {
     attributes: {
       name: { list: true },
       model: { list: true },
+      summary: { },
+      history: { editor: 'html-simple' },
       updatedAt: { list: true },
     }
   }

@@ -28,7 +28,7 @@ module.exports = {
   routes: {
     '/adminx*': {
       cors: {
-        origin: 'http://localhost:1337'
+        origin: '*'
       }
     },
   }

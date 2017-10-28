@@ -29,7 +29,7 @@ module.exports = {
   },
 
   // Additional AdminX configuration (optional)
-  // Here you can define how AdminX displays and manipulates your data
+  // Here you can define how AdminX displays and helps you edit your data
   adminx: {
     name: 'Car',
     attributes: {

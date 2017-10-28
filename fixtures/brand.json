@@ -2,10 +2,55 @@
 
   {
     "id": 1,
-    "name": "BMW"
+    "name": "Tesla"
   },
   {
     "id": 2,
+    "name": "BMW"
+  },
+  {
+    "id": 3,
     "name": "Nissan"
+  },
+  {
+    "id": 4,
+    "name": "Mazda"
+  },
+  {
+    "id": 5,
+    "name": "Toyota"
+  },
+  {
+    "id": 6,
+    "name": "Hyundai"
+  },
+  {
+    "id": 7,
+    "name": "Mercedes"
+  },
+  {
+    "id": 8,
+    "name": "Volkswagen"
+  },
+  {
+    "id": 9,
+    "name": "Porsche"
+  },
+  {
+    "id": 10,
+    "name": "Ferrari"
+  },
+  {
+    "id": 11,
+    "name": "Fiat"
+  },
+  {
+    "id": 12,
+    "name": "Peugeot"
+  },
+  {
+    "id": 13,
+    "name": "Renault"
   }
+
 ]

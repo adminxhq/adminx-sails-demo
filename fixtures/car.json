@@ -1,27 +1,9 @@
 [
-
   {
     "id": 1,
-    "name": "Classic Mini",
-    "model": "Mini Cooper",
-    "brand": 1,
-    "year": "2016",
-    "dailyRate": "32.21",
-    "availableAt": "2018-06-29",
-    "fullTank": false,
-    "summary": "The Mini Hatch, stylized as MINI hatch or MINI Hardtop in the US, also known as Mini Cooper or Mini One or simply the Mini, is a three-door hatchback first introduced in late 2000, with a second generation launched in 2006 and a third generation model launched in 2014. A convertible version was introduced in 2004, with the second generation following in 2008.",
-    "thumbnail": "http://st.motortrend.com/uploads/sites/10/2015/11/2011-mini-cooper-base-coupe-angular-front.png",
-    "cover": "https://media.ed.edmunds-media.com/mini/cooper/2015/oem/2015_mini_cooper_2dr-hatchback_john-cooper-works_fq_oem_3_1280.jpg",
-    "extras": ["Bluetooth", "Google Maps", "Assisted Drive"],
-    "doorConfiguration": "5 Doors",
-    "history": "The Mini is a small economy car produced by the English based British Motor Corporation (BMC) and its successors from 1959 until 2000. The original is considered an icon of 1960s British popular culture.[8][9][10][11] Its space-saving transverse engine front-wheel drive layout – allowing 80 percent of the area of the car's floorpan to be used for passengers and luggage – influenced a generation of car makers.[12] In 1999 the Mini was voted the second most influential car of the 20th century, behind the Ford Model T, and ahead of the Citroën DS and Volkswagen Beetle.[13][14] This distinctive two-door car was designed for BMC by Sir Alec Issigonis. It was manufactured at the Longbridge and Cowley plants in England, the Victoria Park/Zetland British Motor Corporation (Australia) factory in Sydney, Australia, and later also in Spain (Authi), Belgium, Chile, Italy (Innocenti), Malta, Portugal, South Africa, Uruguay, Venezuela and Yugoslavia. The Mini Mark I had three major UK updates – the Mark II, the Clubman and the Mark III. Within these was a series of variations, including an estate car, a pick-up truck, a van and the Mini Moke, a jeep-like buggy.",
-    "metaData": ""
-  },
-  {
-    "id": 2,
     "name": "Big Truck",
     "model": "Frontier",
-    "brand": 1,
+    "brand": 3,
     "year": "2017",
     "dailyRate": "45.95",
     "availableAt": "2018-10-29",
@@ -31,7 +13,39 @@
     "cover": "https://www.nissanusa.com/dam/nissan/vehicles/trucks/frontier/2018/overview/key-features/2018-nissan-frontier-red-large.jpg",
     "extras": ["4x4", "Bluetooth", "Wi-Fi"],
     "doorConfiguration": "5 Doors",
-    "history": "The Nissan Navara is the name for the D22 and D40 generations of Nissan pickup trucks sold in Asia and Europe; and the name for all generations of the vehicles in Australia. In North, Central and South America it is sold as the Nissan Frontier.",
-    "metaData": ""
+    "history": "The Nissan Navara is the name for the D22 and D40 generations of Nissan pickup trucks sold in Asia and Europe; and the name for all generations of the vehicles in Australia. In North, Central and South America it is sold as the Nissan Frontier."
+  },
+  {
+    "id": 2,
+    "name": "Classic Mini",
+    "model": "Mini Cooper",
+    "brand": 2,
+    "year": "2016",
+    "dailyRate": "32.21",
+    "availableAt": "2018-06-29",
+    "fullTank": false,
+    "summary": "The Mini Hatch, stylized as MINI hatch or MINI Hardtop in the US, also known as Mini Cooper or Mini One or simply the Mini, is a three-door hatchback first introduced in late 2000, with a second generation launched in 2006 and a third generation model launched in 2014. A convertible version was introduced in 2004, with the second generation following in 2008.",
+    "thumbnail": "http://st.motortrend.com/uploads/sites/10/2015/11/2011-mini-cooper-base-coupe-angular-front.png",
+    "cover": "https://media.ed.edmunds-media.com/mini/cooper/2015/oem/2015_mini_cooper_2dr-hatchback_john-cooper-works_fq_oem_3_1280.jpg",
+    "extras": ["Bluetooth", "Assisted Drive"],
+    "doorConfiguration": "5 Doors",
+    "history": "The Mini is a small economy car produced by the English based British Motor Corporation (BMC) and its successors from 1959 until 2000. The original is considered an icon of 1960s British popular culture.[8][9][10][11] Its space-saving transverse engine front-wheel drive layout – allowing 80 percent of the area of the car's floorpan to be used for passengers and luggage – influenced a generation of car makers.[12] In 1999 the Mini was voted the second most influential car of the 20th century, behind the Ford Model T, and ahead of the Citroën DS and Volkswagen Beetle.[13][14] This distinctive two-door car was designed for BMC by Sir Alec Issigonis. It was manufactured at the Longbridge and Cowley plants in England, the Victoria Park/Zetland British Motor Corporation (Australia) factory in Sydney, Australia, and later also in Spain (Authi), Belgium, Chile, Italy (Innocenti), Malta, Portugal, South Africa, Uruguay, Venezuela and Yugoslavia. The Mini Mark I had three major UK updates – the Mark II, the Clubman and the Mark III. Within these was a series of variations, including an estate car, a pick-up truck, a van and the Mini Moke, a jeep-like buggy."
+  },
+  {
+    "id": 3,
+    "name": "Futuristic",
+    "model": "Model X",
+    "brand": 1,
+    "year": "2019",
+    "dailyRate": "99.95",
+    "availableAt": "2019-5-12",
+    "fullTank": true,
+    "summary": "Beautiful model X hand-crafted by Elon Musk",
+    "thumbnail": "https://s.aolcdn.com/dims-global/dims3/GLOB/legacy_thumbnail/788x525/quality/85/https://s.aolcdn.com/commerce/autodata/images/USC60TSS011C021001.jpg",
+    "cover": "https://www.tesla.com/tesla_theme/assets/img/modelx/slideshow/White_Cruise-1440.jpg?20170907",
+    "extras": ["Google Maps", "Bluetooth", "PayPal"],
+    "doorConfiguration": "5 Doors",
+    "history": ""
   }
+
 ]

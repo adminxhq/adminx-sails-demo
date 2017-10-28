@@ -13,7 +13,7 @@ module.exports.cron = {
 
       var barrels = new Barrels(path.resolve('./fixtures'));
       var fixtures = barrels.data;
-      barrels.populate(function (err) {
+      barrels.populate(['brand', 'car'], function (err) {
         console.log('Finished populating data', err || '');
       });
 

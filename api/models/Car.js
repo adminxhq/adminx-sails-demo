@@ -11,7 +11,7 @@ module.exports = {
   attributes: {
     name: { type: 'string' },
     model: { type:'string' },
-    brand: { type: 'string' },
+    brand: { model: 'brand' },
     year: { type: 'integer', min: 2000, max: 2019 },
     dailyRate: { type: 'float', min: 0 },
     availableAt: { type: 'date' },
@@ -33,9 +33,11 @@ module.exports = {
   adminx: {
     name: 'Car',
     attributes: {
+      id: { disabled: true },
       name: { list: true },
+      brand: { }, // Here for ordering
       model: { list: true },
-      summary: { },
+      summary: { }, // Here for ordering
       thumbnail: { editor: 'input-url' },
       cover: { editor: 'input-url' },
       history: { editor: 'html-simple' },

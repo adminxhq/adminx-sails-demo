@@ -7,10 +7,8 @@
 
 module.exports = {
 
-  /**
-   * SailsJS schema configuration
-   * Mandatory for SailsJS framework
-   */
+  /* SailsJS schema configuration
+   * Mandatory for SailsJS framework */
   attributes: {
     name: { type: 'string' },
     model: { type:'string' },
@@ -31,12 +29,10 @@ module.exports = {
     metaData: { type: 'json' },
   },
 
-  /**
-   * AdminX configuration
+  /* AdminX configuration
    * This configuration is optional
    * Here you can define how AdminX
-   * displays and helps you edit your data
-   */
+   * displays and helps you edit your data */
   adminx: {
     name: 'Car',
     attributes: {

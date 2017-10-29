@@ -3,7 +3,6 @@
  *
  * @description :: Brand of car maker
  */
-
 module.exports = {
 
   /* SailsJS schema configuration

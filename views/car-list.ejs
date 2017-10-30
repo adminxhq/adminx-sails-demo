@@ -9,8 +9,8 @@
           <img class="img-fluid" src="<%= car.thumbnail %>" alt="Card image cap" style="opacity:0;pointer-events:none;">
         </div>
         <div class="card-body d-flex flex-column">
-          <h4 class="card-title"><%= car.name || '' %></h4>
-          <h6 class="card-subtitle mb-2 text-muted"><%= car.brand ? car.brand.name : '' %> <%= car.model || '' %></h6>
+          <h4 class="card-title"><%= car.model || '' %></h4>
+          <h6 class="card-subtitle mb-2 text-muted"><%= car.brand ? car.brand.name : '' %></h6>
           <p class="card-text">
             <small><%= (car.summary || '').substring(0, 100) %>...</small>
             <br>

@@ -10,7 +10,6 @@ module.exports = {
   /* SailsJS schema configuration
    * Mandatory for SailsJS framework */
   attributes: {
-    name: { type: 'string' },
     model: { type:'string' },
     brand: { model: 'brand' },
     year: { type: 'integer', min: 2000, max: 2019 },
@@ -37,7 +36,6 @@ module.exports = {
     name: 'Car',
     attributes: {
       id: { disabled: true },
-      name: { list: true },
       brand: { }, // Here for ordering
       model: { list: true },
       summary: { }, // Here for ordering

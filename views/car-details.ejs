@@ -8,10 +8,9 @@
           <img class="img-fluid" src="<%= car.cover %>" alt="Card image cap" style="opacity:0;pointer-events:none;max-height:400px;overflow:hidden;">
         </div>
         <div class="card-body">
-          <h1 class="card-title"><%= car.name || '' %></h1>
+          <h1 class="card-title"><%= car.brand ? car.brand.name : '' %> <%= car.model || '' %> (<%= car.year || '' %>)</h1>
           <h3 class="card-subtitle mb-2 text-muted">
-            <%= car.brand ? car.brand.name : '' %> <%= car.model || '' %> (<%= car.year || '' %>)
-            <br><%= car.doorConfiguration || '' %>
+            <%= car.doorConfiguration || '' %>
           </h3>
           <p class="card-text">
             <h5>Available: <%- car.available ? '<span class="text-success">Yes</span>' : 'No' %></h5>
@@ -25,7 +24,6 @@
             <h5>Brief</h5>
             <p><%= car.summary || '' %></p>
             <h5>History</h5>
-            <i>(From Wikipedia)</i>
             <p><%- car.history || '' %></p>
           </p>
         </div>

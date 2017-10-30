@@ -1,7 +1,6 @@
 [
   {
     "id": 1,
-    "name": "Big Truck",
     "model": "Frontier",
     "brand": 3,
     "year": "2017",
@@ -17,7 +16,6 @@
   },
   {
     "id": 2,
-    "name": "Classic Mini",
     "model": "Mini Cooper",
     "brand": 2,
     "year": "2016",
@@ -33,7 +31,6 @@
   },
   {
     "id": 3,
-    "name": "Futuristic",
     "model": "Model X",
     "brand": 1,
     "year": "2019",

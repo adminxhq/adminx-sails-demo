@@ -17,6 +17,7 @@ module.exports = {
    * displays and helps you edit your data */
   adminx: {
     attributes: {
+      id: { disabled: true },
       name: { list: true }
     }
   }

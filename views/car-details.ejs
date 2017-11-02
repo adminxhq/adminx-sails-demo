@@ -14,7 +14,7 @@
           </h3>
           <p class="card-text">
             <h5>Available: <%- car.available ? '<span class="text-success">Yes</span>' : 'No' %></h5>
-            <h5>Price: <%= numeral(car.price).format('$0,0.00') %></h5>
+            <h5>Daily rate: <%= numeral(car.dailyRate).format('$0,0.00') %></h5>
             <h5>Extras</h5>
             <ul>
               <% _.each(car.extras, function (extra, index) { %>

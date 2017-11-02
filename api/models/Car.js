@@ -36,11 +36,11 @@ module.exports = {
     name: 'Car',
     attributes: {
       id: { disabled: true },
+      thumbnail: { list: true, editor: 'image' },
       brand: { }, // Here for ordering
       model: { list: true },
       summary: { }, // Here for ordering
-      thumbnail: { editor: 'input-url' },
-      cover: { editor: 'input-url' },
+      cover: { editor: 'image' },
       history: { editor: 'html-simple' },
       updatedAt: { list: true },
     }

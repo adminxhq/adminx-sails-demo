@@ -5,6 +5,7 @@
   "description": "a Sails application",
   "keywords": [],
   "dependencies": {
+    "aws-sdk": "^2.142.0",
     "barrels": "^1.6.5",
     "ejs": "2.3.4",
     "grunt": "1.0.1",
@@ -23,6 +24,7 @@
     "moment": "^2.19.1",
     "numeral": "^2.0.6",
     "rc": "1.0.1",
+    "s3": "^4.4.0",
     "sails": "~0.12.14",
     "sails-disk": "~0.10.9",
     "sails-hook-adminx": "git+https://git@github.com/albertpeiro/sails-hook-adminx.git#0.0.6",

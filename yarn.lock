@@ -2769,7 +2769,7 @@ sails-generate@~0.13.0:
     sails-generate-views "~0.10.5"
     sails-generate-views-jade "~0.10.3"
 
-sails-hook-adminx@^0.0.7:
+sails-hook-adminx@^0.0.10:
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/sails-hook-adminx/-/sails-hook-adminx-0.0.10.tgz#64fcf6403526833bbf9ad46d5a7099cf34f06086"
   dependencies:
